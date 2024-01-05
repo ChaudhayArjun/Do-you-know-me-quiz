@@ -6,7 +6,7 @@ console.log("---------------");
 console.log("Welcome " + userName + "." );
 console.log("---------------");
 
-var userAnsWer = readlineSycn.question("Lets play a quiz to see how well do you Know me? PRESS yes or ok to continue : ");
+var userAnsWer = readlineSycn.question("Lets play a quiz to see how well do you Know me. ENTER yes or ok to continue : ");
 
 if(userAnsWer.toLowerCase() == "yes" || userAnsWer.toLowerCase() == "ok") {
   console.log("---------------");
@@ -66,5 +66,5 @@ if(userAnsWer.toLowerCase() == "yes" || userAnsWer.toLowerCase() == "ok") {
   }
   
 } else {
-  console.log("say yes/ok to play!!!!");
+  console.log("ERROR : say yes/ok to play ");
 }
